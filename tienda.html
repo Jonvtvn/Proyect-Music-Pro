@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Pro</title>
+
+    <link rel="icon" href="img/favicon.ico">
+
+
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/hover.css">
+    
+</head>
+<body id="inicio">
+    <!--NavBar-->
+    <nav id="navbar" class="fixed-top navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+            <a class="navbar-brand logo-grande" href="tienda.html"><img src="img/LOGO-FINAL-NEGRO.png" ></a>
+            <a class="navbar-brand logo-chico" href="tienda.html"><img src="img/logo-guitarra-negro.png"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" collapse navbar-collapse px-2" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
+                        <a class="hvr-grow nav-link mx-3 font-navbar" aria-current="page" href="#inicio">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="hvr-grow nav-link mx-3 font-navbar" href="#productos">PRODUCTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="hvr-grow nav-link mx-3 font-navbar" href="carrito.html">CARRITO <i class="bi bi-bag-fill"><span class="badge"></span></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Banner-->
+    <section class="banner">
+        <div class="banner-content">
+            <h1>Bienvenidos a Music Pro</h1>
+        </div>
+    </section>
+
+    <!--Productos-->
+    <div class="container-fluid bg-light pb-5">
+        <div class="container">
+            <h2 class="h2-productos" id="productos">NUESTROS PRODUCTOS</h2>
+
+            <!--Filtrador de Productos-->
+            <div class="row mt-3 mb-3 filtro-productos">
+                    <button data-filter="todo" type="button" class=" col boton-filtrador btn btn-dark mx-1">TODO</button>
+                    <button data-filter="1" type="button" class="col boton-filtrador btn btn-dark mx-1">CUERDAS</button>
+                    <button data-filter="2" type="button" class="col boton-filtrador btn btn-dark mx-1">PERCUSIÓN</button>
+                    <button data-filter="3" type="button" class="col boton-filtrador btn btn-dark mx-1">AMPLIFICADORES</button>
+                    <button data-filter="4" type="button" class="col boton-filtrador btn btn-dark mx-1">ACCESORIOS</button>
+            </div>
+
+
+            <!--Fila-->
+            <div class="row" id="lista-producto">
+
+                <!--Producto-->
+                <div class="col text-center filtro 1">
+                    <div class="card card-producto hvr-fade hvr-buzz-out" style="width: 17rem;">
+                        <img class="img-producto card-img-top img-fluid" src="img/productos/guitarraacustica.webp">
+                        <div class="card-body text-center">
+                            <h4 style="display: none;">3</h4>
+                            <h5 class="nombre-producto card-title">Guitarra acústica</h5>
+                            <h6 class="marca-producto">Vizcaya</h6>
+                            <p class="valor-producto card-text">$ <span>54990</span></p>
+                            <a href="#Guitarra acústica" class="boton-producto btn btn-dark">Agregar Carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Producto-->
+                <div class="col text-center filtro 1">
+                    <div class="card card-producto hvr-fade hvr-buzz-out" style="width: 17rem;">
+                        <img class="img-producto card-img-top img-fluid" src="img/productos/piano.webp">
+                        <div class="card-body text-center">
+                            <h4 style="display: none;">4</h4>
+                            <h5 class="nombre-producto card-title">Piano</h5>
+                            <h6 class="marca-producto">Kawai</h6>
+                            <p class="valor-producto card-text">$ <span>1649900</span></p>
+                            <a href="#Piano" class="boton-producto btn btn-dark">Agregar Carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Producto-->
+                <div class="col text-center filtro 2">
+                    <div class="card card-producto hvr-fade hvr-buzz-out" style="width: 17rem;">
+                        <img class="img-producto card-img-top img-fluid" src="img/productos/bateria.webp">
+                        <div class="card-body text-center">
+                            <h4 style="display: none;">5</h4>
+                            <h5 class="nombre-producto card-title">Batería</h5>
+                            <h6 class="marca-producto">Roland</h6>
+                            <p class="valor-producto card-text">$ <span>5269900</span></p>
+                            <a href="#Batería" class="boton-producto btn btn-dark">Agregar Carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Producto-->
+                <div class="col text-center filtro 3">
+                    <div class="card card-producto hvr-fade hvr-buzz-out" style="width: 17rem;">
+                        <img class="img-producto card-img-top img-fluid" src="img/productos/amplificadordeguitarra.webp">
+                        <div class="card-body text-center">
+                            <h4 style="display: none;">7</h4>
+                            <h5 class="nombre-producto card-title">Amplificador de Guitarra</h5>
+                            <h6 class="marca-producto">Line 6</h6>
+                            <p class="valor-producto card-text">$ <span>569900</span></p>
+                            <a href="#Amplificador de Guitarra" class="boton-producto btn btn-dark">Agregar Carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Producto-->
+                <div class="col text-center filtro 4">
+                    <div class="card card-producto hvr-fade hvr-buzz-out" style="width: 17rem;">
+                        <img class="img-producto card-img-top img-fluid" src="img/productos/microfonodinamico.webp">
+                        <div class="card-body text-center">
+                            <h4 style="display: none;">8</h4>
+                            <h5 class="nombre-producto card-title">Micrófono dinámico</h5>
+                            <h6 class="marca-producto">Shure</h6>
+                            <p class="valor-producto card-text">$ <span>289900</span></p>
+                            <a href="#Micrófono dinámico" class="boton-producto btn btn-dark">Agregar Carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Producto-->
+                <div class="col text-center filtro 2">
+                    <div class="card card-producto hvr-fade hvr-buzz-out" style="width: 17rem;">
+                        <img class="img-producto card-img-top img-fluid" src="img/productos/congas.webp">
+                        <div class="card-body text-center">
+                            <h4 style="display: none;">9</h4>
+                            <h5 class="nombre-producto card-title">Congas</h5>
+                            <h6 class="marca-producto">Lp Percusion</h6>
+                            <p class="valor-producto card-text">$ <span>429900</span></p>
+                            <a href="#Congas" class="boton-producto btn btn-dark">Agregar Carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Producto-->
+                <div class="col text-center filtro 4">
+                    <div class="card card-producto hvr-fade hvr-buzz-out" style="width: 17rem;">
+                        <img class="img-producto card-img-top img-fluid" src="img/productos/audifonoinalambrico.webp">
+                        <div class="card-body text-center">
+                            <h4 style="display: none;">10</h4>
+                            <h5 class="nombre-producto card-title">Audífono inalámbrico</h5>
+                            <h6 class="marca-producto">Bose</h6>
+                            <p class="valor-producto card-text">$ <span>329990</span></p>
+                            <a href="#Audífono inalámbrico" class="boton-producto btn btn-dark">Agregar Carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Producto-->
+                <div class="col text-center filtro 4">
+                    <div class="card card-producto hvr-fade hvr-buzz-out" style="width: 17rem;">
+                        <img class="img-producto card-img-top img-fluid" src="img/productos/lentesdesolconaudifonos.webp">
+                        <div class="card-body text-center">
+                            <h4 style="display: none;">11</h4>
+                            <h5 class="nombre-producto card-title">Lentes de sol con audífonos</h5>
+                            <h6 class="marca-producto">Bose</h6>
+                            <p class="valor-producto card-text">$ <span>269990</span></p>
+                            <a href="#Lentes de sol con audífonos" class="boton-producto btn btn-dark">Agregar Carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+            <!--Fin Fila-->
+            <br>
+        </div>
+    </div>
+
+
+    <!--Pie de Pagina-->
+    <footer id="pie-pagina" class="bg-dark text-center text-white">
+        <!--Container -->
+        <div class="redes" style="background-color: rgba(0, 0, 0, 0.2);">
+            <!--Social-->
+            <section>
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://es-la.facebook.com/" role="button" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com" role="button" target="_blank"><i class="fab fa-twitter"></i></a>
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.google.com" role="button" target="_blank"><i class="fab fa-google"></i></a>
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com" role="button" target="_blank"><i class="fab fa-instagram"></i></a>
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://cl.linkedin.com" role="button" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://github.com" role="button" target="_blank"><i class="fab fa-github"></i></a>
+            </section>
+        </div>
+
+        <!--Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            Alonso Perez, Jonatan Pizarro & Armando Neira © 2022 Copyright:
+            <a class="text-white" href="tienda.html">Music Pro</a>
+        </div>
+    </footer>
+
+
+    <!--JS-->
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
