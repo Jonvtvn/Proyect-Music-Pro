@@ -3,7 +3,7 @@ Página web de compra de Instrumentos Musicales
 
 
 
-#O J O
+# O J O
 Para visualizar la página web solo debera:
   -Abrir tienda.html en algun navegador.
   
