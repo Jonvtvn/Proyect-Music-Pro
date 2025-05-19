@@ -1,15 +1,28 @@
-# Music Pro
-Página web de compra de Instrumentos Musicales
+# 🎵 Music Pro
 
+**Music Pro** es una página web dedicada a la compra de instrumentos musicales. Este proyecto fue desarrollado como parte de una actividad académica en colaboración con mis compañeros.
 
+## 🛒 ¿Qué ofrece Music Pro?
 
-# O J O
-Para la  visualizacion de la página web solo debera:
+Una interfaz sencilla y atractiva para explorar y adquirir distintos instrumentos musicales. La página está diseñada con HTML y CSS, enfocándose en la experiencia del usuario.
 
-  - Abrir tienda.html en algun navegador.
-  
-Proyecto realizado junto a mis compañeros Armnado Neira.
+## 🚀 Cómo visualizar el proyecto
 
-![MusicPro2.png](./img/MusicPro2.png)
-![MyTrainingApp2](./src/assets/img/MyTraining2.png)
-![MyTrainingApp3](./src/assets/img/MyTraining3.png)
+Para ver el sitio web en funcionamiento, solo necesitas:
+
+1. Descargar o clonar el repositorio.
+2. Abrir el archivo `tienda.html` en tu navegador web favorito (Google Chrome, Firefox, etc.).
+
+## 🤝 Colaboradores
+
+Proyecto realizado en conjunto con:
+
+- **Armando Neira**
+
+## 📸 Capturas del sitio
+
+A continuación se muestran algunas vistas del diseño de la página:
+
+![Vista 1](./img/MusicPro2.png)
+![Vista 2](./img/MusicPro3.png)
+![Vista 3](./img/MusicPro4.png)
